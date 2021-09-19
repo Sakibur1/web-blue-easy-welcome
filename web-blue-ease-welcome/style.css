@@ -1,0 +1,320 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color:#fff;
+	font-family: sans-serif;
+}
+header{
+	background: url(img/cover.jpg);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	height:100vh;
+	overflow: hidden;
+	
+}
+.bluesky{
+	background: #475259;
+	opacity:80%;
+	position:relative;
+	overflow: hidden;
+	padding: 20px;
+
+}
+.logo{
+	margin-top: 27px;
+	position: absolute;
+	padding: 10px;
+	height:25px;
+	
+	 
+}
+.logo:hover{
+	transition: .5s;
+	transform: rotate(720deg);
+
+
+}
+.ul{
+	display: flex;
+	float:right;
+ margin-top: 40px;
+
+}
+.ul .li{
+	list-style: none;
+}
+.ul .li .a{
+	text-transform: uppercase;
+	text-decoration: none;
+	height: 10px;
+	color:#fff;
+	margin-left:5px;
+	padding: 10px 5px;
+		border: 2px solid #455057;
+	
+	overflow: hidden;
+}
+.ul .li .a:hover{transition: .7s;
+		text-decoration: none;
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+	border-radius: 5%;
+}
+.write{
+	display: flex;
+	align-items: center;
+	size:70%;
+}
+.write>h2{
+	text-transform: uppercase;
+	text-align:center;
+	size:700;
+	padding: 40vh 0;
+}
+/**header aria ends**/
+.service{padding:70px;
+	background:#4bcaff;
+}
+.h2-1{
+text-transform: uppercase;
+color:#fff;
+padding:20px 0 0;
+
+text-align: left;
+margin-bottom: 10px;
+}
+.sere-img1{
+	border-top: 2px solid #fff;
+	padding-top:40px;
+}
+.sere-img{
+		padding-top:40px;
+}
+h3{
+	text-transform: uppercase;
+	padding:20px 0;
+	color: #fff;
+
+
+}
+.service-p{
+	color:#fff;
+}
+/*------------ends*-------*/
+.port-menu{	display: flex;
+	float:right;
+
+}
+.port-menu .li2{
+	list-style: none;
+}
+.port-menu .li2 .a2{
+		text-transform: uppercase;
+	text-decoration: none;
+	height: 10px;
+	color:#000;
+
+	padding: 10px 5px;
+		border: 2px solid #fff;
+	
+	overflow: hidden;
+}
+.port-menu .li2 .a2:hover{
+	transition: .7s;
+		text-decoration: none;
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+	border-radius: 5%;
+
+}
+.portfolio1{
+
+
+
+	height:25px;
+}
+
+ .ppp-head{
+
+ 	padding: 40px 0;
+ 	display: block;
+
+ }
+.sere-img23{
+position: relative;
+	height:270px;
+	width:270px;
+	margin-bottom: 20px;
+
+}
+.sere-img23>img{
+	width:100%;
+	height: 100%;
+}
+
+.p-overlay{
+height:270px;
+	width:270px;
+	background:rgba( 61, 70, 77, .8);
+	position: absolute;
+	top:0;
+	opacity: 0;
+	
+}
+.p-overlay>h2{
+	text-align: center;
+	padding: 100px;
+}
+.sere-img23:hover .p-overlay{
+	opacity: 1;
+} 
+/*ends here*/
+#sssssection{display: block;
+	width: 100%;
+	background-color: #515f67;
+}
+.just-default-section-text1{
+	text-transform: uppercase;
+color:#fff;
+padding:20px 0 0;
+text-align: left;
+margin-bottom: 45px;
+display: block;
+}
+#service-p11{
+	color:#fff;
+}
+.bokisa{
+	height:300px;
+	width:90%px;
+	background-color:#515f67;
+	margin: 70px 0;
+	position: relative;
+	border-radius: 5%;
+	
+
+}
+video{margin-right: 0;
+	width: 100%;
+	border-radius: 5%;
+}
+
+
+
+
+.twitter-blueasy{
+	padding: 15px 0;
+	background-color: #4bcaff;
+	color:#fff;
+}
+.twitter-blueasy>h2{
+	padding-left: 0: 
+	margin-left:0;
+	}
+.twitter-blueasy2{
+	padding-top: 70px;
+	padding-bottom: 60px;
+	padding-right: 60px;
+	padding-left: 0;
+}
+.cheesecake{
+	text-decoration: none;
+	font-weight: 700;
+	color:#fff;
+}
+.twit:hover{
+	transform: scale(1.2);
+}
+	
+
+
+
+.john{
+	background: url(img/john.jpg);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+
+
+}
+.john2{display: block;
+	padding: 90px 0;
+	color: #fff;
+}
+
+
+.tesi{
+	padding-top: 80px;
+	padding-bottom: : 0px;
+	background-color: #fff;
+
+}
+.tesi-a{
+	text-decoration:none;
+	margin-bottom: 80px;
+	display:block;
+}
+.tesi-h4{
+	margin-top:45px; 
+	padding-bottom:45px; 
+}
+.contactblue{
+	background: url(img/contact.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+}
+.contactblue2{
+	padding: 80px 0;
+}
+.bluinput{
+	background: none;
+	height: 60px;
+	width: 100%;
+	border:2px solid #fff;
+}
+
+.txtara{
+
+	width: 100%;
+	height: 200px;
+	background: none;
+	border:2px solid #fff;
+
+
+}
+.lbl{
+	margin-top: 40px;
+}
+.ppp>p{
+	text-align: left;
+	margin-top: 60px;
+
+}
+.wqwq{
+	margin-bottom: 45px;
+}
+#massaage{
+	background: #4bcaff;
+	height: 60px;
+	width: 100%;
+	border:none;
+}
+footer{
+	background: #353f47;
+}
+
+.foot{
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+
+}
+.foot>p>a{
+	color: #f5ebeb;
+}
